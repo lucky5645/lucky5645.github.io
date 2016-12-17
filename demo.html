@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<p id="title">apple</p>
+	<ul>
+		<li>
+			<a href="#apple">苹果</a>
+		</li>
+		<li><a href="#perl">梨子</a></li>
+		<li><a href="#orange">橘子</a></li>
+	</ul>
+	<script>
+		var ul = document.querySelector('ul');
+		var title = document.querySelector('#title');
+		/*ul.addEventListener('click', function(event){
+			title.innerHTML = event.target.innerHTML;
+		});*/
+
+		if(location.hash) {
+			var hash = location.hash;// 拿到url中hash值
+			//hash = '#perl'
+			//selector = [href="#perl"]
+			var selector = '[href="'+ hash  +'"]';
+			title.innerHTML = document.querySelector(selector).innerHTML
+		}
+
+		//我们可以通过监听hash值的变化，去维护我们的页面状态
+		window.onhashchange = function(){
+			//每当hash值 发生改变的时候，它都会进行执行
+			console.log('我的hash值进行了改变');
+
+			var hash = location.hash;// 拿到url中hash值
+			//hash = '#perl'
+			//selector = [href="#perl"]
+			var selector = '[href="'+ hash  +'"]';
+			title.innerHTML = document.querySelector(selector).innerHTML
+		}
+	</script>
+</body>
+</html>

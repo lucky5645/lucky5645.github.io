@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Firstwebapp</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+	<!-- home.html  rank.html  citylist.html form.html -->
+	<div id='home' class="section" style=
+	"display:none"><a href="#rank">首页，去排名页</a></div>
+	<div id='rank' class="section" style=
+	"display:none"><a href="#form">排名页， 去表单页</a></div>
+	<div id="citylist" class="section" style=
+	"display:none"><a href="#home">城市选择页, 去首页</a></div>
+	<div id="form" class="section" style=
+	"display:none"><a href="#citylist">表单页， 去城市选择页</a></div>
+	<script src="js/plugin/rem.js"></script>
+	<script src="js/plugin/zepto.js"></script>
+	<script src="js/module/home.js"></script>
+	<script src="js/module/rank.js"></script>
+	<script src="js/module/form.js"></script>
+	<script src="js/module/citylist.js"></script>
+	<script src="js/route.js"></script>
+	<script src="js/index.js"></script>
+</body>
+</html>
