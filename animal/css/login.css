@@ -1,0 +1,283 @@
+@charset "utf-8";
+.registerTop {
+	border-bottom: #DDDDDD solid 1px;
+	height: 120px;
+}
+.topMain {
+	margin: 0 auto;
+	width: 1100px;
+	padding: 30px 0;
+}
+.loginLink {
+    margin: 13px 24px 0 0;
+}
+.loginLink a {
+    padding: 0 5px;
+    display: inline-block;
+    font-size: 14px;
+    color: #666;
+}
+.loginMain {
+	background: url(../img/logbg1.jpg) no-repeat center;
+	height: 628px;
+	position: relative;
+}
+.loginbg {
+	width: 1100px;
+	margin: 0 auto;
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+}
+.logdiv{
+	position: absolute;
+    width: 340px;
+    padding: 0 36px 30px;
+    background: #fff;
+    top: 70px;
+    right: 5px;
+}
+.loginTab span {
+	cursor: pointer;
+	float: left;
+	text-align: center;
+	font-size: 14px;
+	height: 67px;
+    line-height: 80px;
+    width: 50%;
+    border-bottom: #ddd solid 1px;
+}
+.loginTab .Logindefalut {
+    color: #000;
+    border-bottom: #33cb98 solid 1px;
+}
+.logUser,.logPass,.logPhone {
+    border: #ddd solid 1px;
+    height: 45px;
+    line-height: 45px;
+    padding: 0 0 0 15px;
+}
+.logVarify,.logphonecode {
+	width: 205px;
+	border: #ddd solid 1px;
+    height: 45px;
+    line-height: 45px;
+    margin: 20px 0 0 0;
+    padding: 0 0 0 15px;
+}
+/*普通注册输入框前的小图标*/
+.staticLog span {
+	display: inline-block;
+    width: 23px;
+    height: 19px;
+    background: url(../img/ico.png) no-repeat;
+    vertical-align: middle;
+}
+.dynamicLog {
+	display: none;
+}
+.staticLog span.user {
+	background-position: 0 0;
+}
+.staticLog span.psw {
+	background-position: 0 -28px;
+}
+/*动态登录输入框前的小图标*/
+.dynamicLog span {
+	display: inline-block;
+	width: 23px;
+    height: 19px;
+    background-position: 0 0;
+    vertical-align: middle;
+    background: url(../img/login_ico.png) no-repeat;
+}
+.dynamicLog span.phone {
+	background-position: 0px -37px;
+}
+.dynamicLog span.vfy {
+	background-position: 0px -68px;
+}
+.dynamicLog span.Uderico {
+	background-position: 0px -11px;
+}
+/*输入框的设置*/
+.username,.password,.phcall {
+    height: 45px;
+    line-height: 45px;
+    width: 296px;
+    border: none;
+    text-indent: 2px;
+    color: #999;
+    font-size: 14px;
+    outline: none;
+}
+.varify,.dycode {
+	height: 45px;
+    line-height: 45px;
+    width: 150px;
+    border: none;
+    text-indent: 2px;
+    color: #999;
+    font-size: 14px;
+    outline: none;
+}
+.phonecodebtn {
+	padding: 0px;
+    width: 100px;
+    float: right;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #33cb98;
+    line-height: 45px;
+    margin-top: 20px;
+}
+.phonecodebtn:hover {
+	background-color: #33cb98;
+	color: #fff;
+}
+.varifying {
+	margin-top: 20px;
+	width: 100px;
+    padding: 0px;
+}
+.Logintext {
+	margin-top: 20px;
+	
+}
+.Logintext input {
+	vertical-align: middle;
+}
+.Logintext span{
+    vertical-align: middle;
+    color: #666;
+    font-size: 14px;
+}
+.Logintext a {
+	color: #666;
+    font-size: 14px;
+}
+.Loginbtn {
+    background: #33cb98;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 5px;
+    margin: 20px 0 15px;
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+}
+.hezuo span {
+	color: #666;
+    font-size: 14px;
+}
+.Heuzouicolist {
+	margin-top: 10px;
+}
+.Heuzouicolist a {
+	display: inline-block;
+    width: 23px;
+    height: 19px;
+    background: url(../img/ico.png) no-repeat;
+	margin-right: 10px;
+}
+.Heuzouicolist .Qqico {
+    background-position: 0 -86px;
+}
+.Heuzouicolist .Zhifuico {
+    background-position: 0 -170px;
+}
+.Heuzouicolist .Huofuuico {
+    background-position: 0 -116px;
+}
+.Heuzouicolist .Weixinico {
+    background-position: 0 -144px;
+}
+.hezuo a {
+	color: #666;
+    font-size: 14px;
+}
+.error-tip {
+	padding-left: 20px;
+	margin-top: 5px;
+	height: 20px;
+	color: #000;
+}
+.error {
+	border: 1px solid #31B0D5;
+}
+.logUser.first,.logPhone.first {
+	margin-top: 20px;
+}
+.messager-window{
+	display: none;
+	z-index: 20;
+	position: absolute;
+	box-shadow: 3px 3px 3px #717171;
+	left: 50%;
+	top: 50%;
+	margin-left: -150px;
+	margin-top: -53px;
+	width: 300px;
+	height: 106px;
+	background-color: #f3f3f3;
+	border-radius: 5px 5px 5px 5px;
+	padding: 0 10px;
+}
+.window-header {
+	cursor: move;
+	border-color: #D3D3D3;
+}
+.panel-title {
+	font: 700 12px/24px "微软雅黑";
+	color: #666;
+}
+.close {
+	font: 700 18px/24px "微软雅黑";
+	color: #666;
+}
+.messager-window .window-body {
+	
+	position: relative;
+	border: 1px solid #ccc;
+	background-color: #fcfcfc;
+    height: 50px;
+    padding: 10px;
+}
+.messager-button {
+	padding-top: 10px;
+	text-align: center;
+}
+a.l-btn {
+    color: #444;
+    background-image: url(../img/linkbutton_bg.png);
+    background-repeat: no-repeat;
+    border-radius: 5px 5px 5px 5px;
+    background-position: right 0;
+    display: inline-block;
+    height: 24px;
+    padding-right: 18px;
+    cursor: pointer;
+}
+a.l-btn span.l-btn-left {
+    background: url(../img/linkbutton_bg.png) no-repeat;
+    display: inline-block;
+    background-position: 0 -48px;
+    padding: 4px 0px 4px 18px;
+    line-height: 16px;
+    height: 16px;
+
+}
+.window-mask {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #ccc;
+	opacity: 0.4;
+}

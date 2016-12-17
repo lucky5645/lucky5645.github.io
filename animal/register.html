@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>新用户注册</title>
+		<link rel="stylesheet" href="css/base.css" />
+		<link rel="stylesheet" href="css/login.css" />
+		<link rel="stylesheet" href="css/register.css" />
+	</head>
+	<body>
+		<div class="registerTop">
+			<form method="post">
+				<div class="topMain">
+					<div class="topLogo fl">
+						<a href="#">
+							<img src="img/cart-logo.png" />
+						</a>
+						<span>
+							<img src="img/welcome_07.jpg" />
+						</span>
+					</div>
+					<div class="Logonfr fr">
+						<span>已有账号？</span>
+						<a href="login.html" target="_blank" class="Logon">登录</a>
+					</div>
+				</div>
+			</div>
+			<div class="Registertopmain">
+				<div class="Registercontent">
+					<div class="Registertext">
+						<!--手机号-->
+						<div class="Registerinput">
+		                    <span>手机号：</span>
+		                    <input tabindex="1" type="text" name="phone" id="phone" placeholder="请输入手机号码" class="phonenumbererror" value="13721025645">
+		                    <!--验证正确时显示的样式-->
+		                    <div class="Registerok " id="phonemsg_img">
+		                        <img src="img/ok_03.jpg" />
+		                    </div>
+		                    <!--获焦显示的提示-->
+		                    <div class="Registererror" id="phonemsg_div">
+		                        <span id="phonemsg" class="onError"></span>
+		                    </div>
+		                </div>
+		                <!--验证码-->
+		                <div class="Registerinput Yanzhengma">
+		                    <span>验证码：</span>
+		                    <input tabindex="2" type="text" name="varify" id="regvairfy" placeholder="请输入图片内容" value="2H9k">
+		                    <div class="Registeryanzheng">
+		                    	
+		                        <i class="codevar">2</i>
+		                        <i class="codevar">H</i>
+		                        <i class="codevar">9</i>
+		                        <i class="codevar">k</i>
+		                        <a href="javascript:;"><img id="xuanzhuan" src="img/renfren_03.jpg"> 换一换</a>
+		                    </div>
+		                    <div class="Registerok" id="varify_img">
+		                        <img src="img/ok_03.jpg">
+		                    </div>
+		                    <div class="Registererror" name="varify_msg" id="varify_msg_div">
+		                        <span id="varify_msg" class="onShow">请输入验证码</span>
+		                    </div>
+		                    <!--验证正确时显示的样式-->
+		                    <div class="Registerok " id="phonemsg_img">
+		                        <img src="img/ok_03.jpg" />
+		                    </div>
+		                    <!--获焦显示的提示-->
+		                    <div class="Registererror" id="phonemsg_div">
+		                        <span id="phonemsg" class="onError">请输入图片验证码</span>
+		                    </div>
+		                </div>
+		                
+		                <!--用户名-->
+		                <div class="Registerinput">
+		                    <span>用户名：</span>
+		                    <input tabindex="4" type="text" name="nickname" id="nickname" placeholder="用户名" class="phonenumbererror" value="123456">
+		                    <div class="Registerok" id="nickname_img">
+		                        <img src="img/ok_03.jpg">
+		                    </div>
+		                    <div class="Registererror" id="nickname_msg_div">
+		                        <span id="nickname_msg" class="onError"></span>
+		                    </div>
+		                </div>
+		                <!--密码-->
+		                <div class="Registerinput">
+		                    <span> 密码：</span>
+		                    <input tabindex="5" type="password" class="logpass" name="password" id="passwordr" placeholder="密码（8-20位，区分大小写）" value="123456dtt">
+		                    <div class="Registerok" id="password_img">
+		                        <img src="img/ok_03.jpg">
+		                    </div>
+		                    <div class="Registererror" id="password_msg_div">
+		                        <span id="password_msg" class="onShow">请输入密码</span>
+		                    </div>
+		                </div>
+		                <!--密码强度的显示-->
+		                <div class="Pwdqiangdu clearfix" id="qiangdu">
+		                    <span>弱</span>
+		                    <span>中</span>
+		                    <span>强</span>
+		                </div>
+		                <!--确认密码-->
+		                <div class="mb Registerinput rela">
+		                    <span> 确认密码：</span>
+		                    <input tabindex="6" type="password" autocomplete="new-password" class="logpass" name="passwordag" id="passwordag" placeholder="确认密码" value="123456dtt">
+		                    <div class="Registerok" id="passwordag_img">
+		                        <img src="img/ok_03.jpg">
+		                    </div>
+		                    <div class="Registererror" id="passwordag_msg_div">
+		                        <span id="passwordag_msg" class="onShow">请输入确认密码</span>
+		                    </div>
+		                </div>
+		                <!--用户使用协议-->
+		                <div class="Pwdqiangdu">
+		                    <input tabindex="7" type="checkbox" checked="checked" name="agrement">
+		                    <span class="Xieyi">我已阅读并接受E宠<a href="#" target="_blank" >《用户使用协议》</a></span>
+		                </div>
+		                <!--立即注册-->
+		                <a href="javascript:;" class="Otherregister" id="registerbtn" name="registerbtn">立即注册</a>
+					</div>
+				</div>
+			</form>
+		</div>
+		<script src="js/jquery.1.11.3.min.js"></script>
+		<script src="js/jquery.cookie.js"></script>
+		<script src="js/register.js"></script>
+	</body>
+</html>

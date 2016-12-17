@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>购物车-E宠商城</title>
+		<link rel="shortcut icon" href="img/color.png">
+		<link rel="stylesheet" href="css/base.css" />
+		<link rel="stylesheet" href="css/cart.css" /> 
+	</head>
+	<body>
+		<div class="select-menu ct">
+			<div class="cart-menu">
+				<ul class="nav-menu clearfix">
+					<li>
+						购物车
+						<em data-name="cart_num">1</em>
+					</li>
+					<li>
+						我的收藏
+						<em data-name="cart_num">?</em>
+					</li>
+					<li>
+					        我购买过
+						<em data-name="cart_num">?</em>
+					</li>
+					<li>
+					    最近浏览
+						<em data-name="cart_num">?</em>
+					</li>
+				</ul>
+				<div class="nav-currentt">
+					<div class="arrow"><i></i></div>
+				</div>
+			</div>
+			<table cellpadding="0" cellspacing="0" class="cart-table" width="100%" border="0">
+				<tbody>
+					<tr>
+						<td colspan="5" class="onetd">
+							<label><input checked="checked" type="checkbox"></label>
+							<span class="epetfh fl">西部大仓</span>
+						</td>
+					</tr>
+					<tr class="cartCon"></tr>
+			        <tr>
+				        <td colspan="5" class="last">
+				            <div class="balance">
+					            <div class="w-max ct clearfix">
+					                <div class="fl">
+					                    <label>
+					                        <input type="checkbox" class="all-checkbox" >全选
+					                    </label>
+					                    <a href="javascript:;">[ 删除选中商品 ]</a>
+					                    <a href="javascript:;">[ 收藏选中商品 ]</a>
+					                </div>
+					                <div class="fr cart-price">
+					                                                             总价（不含运费）:<strong>￥85.00</strong>
+					                     <a href="javascript:;" class="go-balance">去结算(1)</a>
+					                </div>
+					            </div>
+				            </div>
+				        </td>
+				     </tr>
+				     <tr>
+				        <td >
+				            <a href="main.html" class="go-buy">继续购物</a>
+				        </td>
+				     </tr>
+				</tbody>
+			</table>
+		</div>
+		<script src="js/jquery.1.11.3.min.js"></script>
+		<script src="js/jquery.cookie.js"></script>
+		<script src="js/cart.js"></script>
+	</body>
+</html>

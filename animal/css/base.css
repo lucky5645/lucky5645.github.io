@@ -1,0 +1,97 @@
+@charset "utf-8";
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, i, b{
+	padding: 0;
+	margin: 0;
+	font: 12px "微软雅黑";
+}
+div {
+	display: block;
+}
+html,body {
+	width: 100%;
+}
+ul li {
+	list-style: none;
+}
+.ct {
+	width: 1200px;
+	margin: 0 auto;
+}
+form {
+	display: block;
+	margin-top: 0;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+a {
+	text-decoration: none;
+}
+.clearfix:after {
+	clear: both;
+	content: '';
+	display: block;
+	overflow: hidden;
+}
+.topgz {
+	position: relative;
+	padding-right: 14px;
+	cursor: pointer;
+	display: block;
+}
+ul li.last {
+	margin-right: 0;
+}
+.rtl {
+	position: relative;
+}
+.rtico {
+	background: url(../img/bar.png) no-repeat;
+	width: 35px;
+	height: 35px;
+	display: block;
+	margin: 0 0 15px 0;
+}
+.vc {
+	display: inline-block;
+	vertical-align: middle;
+	height: 100%;
+}
+img,a img {
+	border: none;
+}
+.footer-code-img {
+	float: left;
+	width: 128px;
+	display: inline-block;
+	margin-left: 38px;
+	text-align: center;
+}
+.footer-code-img b{
+	display: block;
+	padding-bottom: 10px;
+	color: #333;
+	text-align: center;
+}
+.footer-code-img img {
+	border: 8px solid #FFF;
+}
+.bottom-b {
+	text-align: center;
+}
+.pad10 {
+    padding: 10px;
+}
+.textR {
+	text-align: right;
+}
+.c999 {
+	color: #999;
+}
+.cf60 {
+	color: #f60;
+}
+

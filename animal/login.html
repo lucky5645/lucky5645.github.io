@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>登录中心</title>
+		<link rel="shortcut icon" href="img/color.png">
+		<link rel="stylesheet" href="css/base.css" />
+		<link rel="stylesheet" href="css/login.css" />
+	</head>
+	<body>
+		<div class="registerTop">
+			<div class="topMain">
+				<div class="topLogo fl">
+					<a href="#">
+						<img src="img/cart-logo.png" />
+					</a>
+				</div>
+				<div class="loginLink fr">
+					<a href="#" target="_blank">全球特卖 </a>
+					&nbsp;&nbsp;|&nbsp;&nbsp;
+	                <a href="#" target="_blank">热卖礼包 </a>
+	                &nbsp;&nbsp;|&nbsp;&nbsp;
+	                <a href="#" target="_blank">试用中心</a>
+				</div>
+			</div>
+		</div>
+		<div  class="loginMain">
+			<div class="loginbg">
+				<form method="post">
+					<div class="logdiv">
+						<div class="loginTab clearfix">
+							<span data-id="0" name="logintype" class="Logindefalut">普通登录</span>
+							<span data-id="1" name="logintype">手机动态密码登录</span>
+						</div>
+						<div class="Logoincontent">
+							 <!--普通登录-->
+						     <div class="staticLog">
+						     	<div class="logUser first">
+						     		<span class="user"></span>
+						     		<input type="text" class="username" placeholder="手机号/邮箱/用户名" />
+						     	</div>
+						        <div class="error-tip">
+									<em class="error-icon"></em>
+								</div>
+						     	<div class="logPass">
+						     		<span class="psw"></span>
+						     		<input type="password" class="password" placeholder="密码" />
+						     	</div>
+						     	<div class="error-tip">
+									<em class="error-icon"></em>
+								</div>
+						     </div>
+						     <!--动态登录-->
+						     <div class="dynamicLog clearfix">
+						     	<!--手机号-->
+						     	<div class="logPhone first">
+						     		<span class="phone"></span>
+						     		<input class="phcall" type="text" placeholder="已注册的手机号">
+						     	</div>
+						     	<!--验证码-->
+						     	<div class="logVarify fl">
+						     		<span class="vfy"></span>
+						     		<input type="text" class="varify" placeholder="验证码" />
+						     	</div>
+						     	<!--获取验证码-->
+						     	<div class="varifying fr">
+						     		<img src="img/seccode.png" />
+						     	</div>
+						     	<!--动态码-->
+						     	<div class="logphonecode fl">
+						     		<span class="Uderico"></span>
+						     		<input type="text" class="dycode" placeholder="动态码" />
+						     	</div>
+						     	<!--获取动态码-->
+						     	<div class="phonecodebtn fr">
+						     		<b>获取动态密码</b>
+						     	</div>
+						     </div>
+						</div>
+					    <div class="Logintext">
+					    	<input type="checkbox" checked="checked">
+					    	<span>自动登录</span>
+					    	<a href="#" target="_blank" class="fr">忘记密码?</a>
+					    </div>
+					    <a href="javascript:;" class="Loginbtn" id="loginbtn">登&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;录</a>
+					    <div class="hezuo">
+					    	<div class="fl clearfix">
+					    		<span>合作网站登录:</span>
+					    		<div class="Heuzouicolist">
+					    			<a href="#" class="Qqico"></a>
+					    			<a href="#" class="Zhifuico"></a>
+					    			<a href="#" class="Huofuuico"></a>
+					    			<a href="#" class="Weixinico"></a>
+					    		</div>
+					    	</div>
+					    	<a href="register.html" class="fr">注册账号</a>
+					    </div>
+					</div>
+				</form>
+			</div>
+		</div>
+		<!--点击登录显示的模态框-->
+		<div class="messager-window">
+			<div class="window-header clearfix">
+				<div class="panel-title fl">E宠商城提示信息。</div>
+				<div class="panel-tool fr">
+					<a class="close" href="javascript:;">&times;</a>
+				</div>
+			</div>
+			<div class="window-body" >
+				<div class="bodyCon">请输入用户名！</div>
+				<div class="messager-button">
+					<a href="javascript:;" class="l-btn">
+						<span class="l-btn-left">
+							<span class="l-btn-text">确定</span>
+						</span>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="window-mask"></div>
+		<script src="js/jquery.1.11.3.min.js"></script>
+		<script src="js/login.js"></script>
+		<script src="js/jquery.cookie.js"></script>
+	</body>
+</html>

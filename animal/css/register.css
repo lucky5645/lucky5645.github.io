@@ -1,0 +1,173 @@
+@charset "utf-8";
+input {
+	outline: none;
+}
+img {
+	vertical-align: middle;
+}
+.Logonfr {
+    margin: 13px 5px 0 0;
+}
+.Logonfr span {
+	font-size: 14px;
+}
+.Logonfr a {
+	color: #427fd2;
+	font-size: 16px;
+}
+.Registertopmain {
+    border-bottom: #DDDDDD solid 1px;
+}
+.Registercontent {
+    padding-top: 55px;
+    width: 1100px;
+    margin: 0 auto;
+}
+.Registertext {
+    width: 516px;
+    margin-left: 228px;
+    margin: 0 auto;
+}
+.Registerinput {
+	margin-bottom: 10px;
+	position: relative;
+}
+.Registerinput>span {
+	text-align: right;
+    display: inline-block;
+    font-size: 16px;
+}
+.Registerinput input {
+    border: #ddd solid 1px;
+    height: 52px;
+    border-radius: 5px;
+    width: 413px;
+    color: #999;
+    text-indent: 16px;
+    font-size: 14px;
+}
+.Registerok {
+	display: none;
+	position: absolute;
+    right: -30px;
+    top: 15px;
+}
+.Registererror {
+	display: none;
+	position: absolute;
+    font-size: 14px;
+    left: 520px;
+    top: 0;
+    width: 150px;
+    padding: 0 10px;
+    height: 54px;
+    line-height: 54px;
+    background: #fff3d9;
+    color: #ff6f4a;
+}
+.Registertext span {
+    width: 96px;
+}
+.Yanzhengma input {
+    width: 203px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+.Registeryanzheng {
+	overflow: hidden;
+	display: inline-block;
+	position: absolute;
+	padding-left: 10px;
+    width: 190px;
+    border: #ddd solid 1px;
+    border-radius: 5px;
+    height: 52px;
+    line-height: 52px;
+    vertical-align: middle;
+}
+.codevar {
+	float: left;
+    cursor: pointer;
+}
+.Registeryanzheng a {
+	text-align: center;
+	display: inline-block;
+	color: #999;
+    width: 88px;
+    border-radius: 0 10px 10px 0;
+    border-left: #ddd solid 1px;
+}
+.Duanxinyanzhengma input {
+    width: 253px;
+}
+.Duanxinyanzhengma .Registeryanzheng {
+	text-align: center;
+	color: #999;
+	font-size: 14px;
+	display: inline-block;
+    width: 149px;
+    border: #33cb98 solid 1px;
+}
+.Duanxinyanzhengma .Registeryanzheng:hover {
+	background-color: #33cb98;
+	color: #fff;
+}
+.Pwdqiangdu {
+    padding-left: 100px;
+    margin-bottom: 10px;
+}
+.Pwdqiangdu input[type="checkbox"] {
+    vertical-align: middle;
+}
+.Pwdqiangdu .Xieyi {
+    color: #333;
+    background: none;
+    vertical-align: middle;
+}
+.Pwdqiangdu span {
+    width: 80px;
+    height: 20px;
+    margin-right: 2px;
+    line-height: 20px;
+}
+.Pwdqiangdu .Xieyi a {
+    color: #427fd2;
+}
+.Otherregister {
+	cursor: pointer;
+	text-align: center;
+	font-size: 20px;
+	color: #fff;
+    border-radius: 5px;
+    background: #ededed;
+    width: 413px;
+    height: 52px;
+    line-height: 52px;
+    margin: 15px 0 50px 100px;
+    display: inline-block;
+}
+.Pwdqiangdu {
+    padding-left: 100px;
+    margin-bottom: 10px;
+}
+#qiangdu {
+	display: none;
+}
+#qiangdu span{
+	width: 80px;
+	float: left;
+	text-align: center;
+    background: #eee;
+    color: #999;
+}
+#qiangdu span.leval{
+	background-color: #fc9720;
+	color: #fff;
+}
+.Registeryanzheng i {
+	height: 48px;
+	line-height: 48px;
+	text-align: center;
+	width: 20px;
+	font-size: 20px;
+} 
